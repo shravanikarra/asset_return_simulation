@@ -22,14 +22,10 @@ These limitations lead to misleading risk-return estimates and unreliable long-t
 🔧 Our Approach
 
 Methodologies Implemented:
-	1.	Block Bootstrapping of Returns
-	•	Preserves autocorrelation and volatility patterns by resampling historical blocks.
-	2.	GARCH-based Time Series Simulation
-	•	Models time-varying volatility to better capture clustering and tail risk.
-	3.	Empirical Distribution Monte Carlo
-	•	Non-parametric simulation using the actual historical return distribution.
-	4.	Copula-based Multi-Asset Simulation
-	•	Captures non-linear dependencies and joint tail behavior between asset classes.
+	1.	Block Bootstrapping of Returns : Preserves autocorrelation and volatility patterns by resampling historical blocks.
+	2.	GARCH-based Time Series Simulation: Models time-varying volatility to better capture clustering and tail risk.
+	3.	Empirical Distribution Monte Carlo: Non-parametric simulation using the actual historical return distribution.
+	4.	Copula-based Multi-Asset Simulation: Captures non-linear dependencies and joint tail behavior between asset classes.
 
 📊 Tools & Technologies Used
 	•	Python (Pandas, NumPy, SciPy, Statsmodels, Arch, Matplotlib, Seaborn)
